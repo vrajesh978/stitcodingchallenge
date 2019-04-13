@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb://localhost/stitcodingChallenge",
+    "secret": "This is the string"
+}
