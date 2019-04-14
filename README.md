@@ -77,12 +77,12 @@ Now you can call setPreferences and getEvents. Otherwise, you will get  the erro
 - **`/getEvents`**: <br/>
 &nbsp;**`Method`**`: GET` <br/>
 **Requires token to call this method** <br/>
-**`Body`**`: no body needed since user has set the preferences while registering to our system or user can set the preferences by calling the setPreferences/{id}.` <br/>
+**`Body`** `: no body needed since user has set the preferences while registering to our system or user can set the preferences by calling the setPreferences/{id}.` <br/>
 &nbsp;**`Response:`**
 &nbsp;**`onSuccess`: `Array of the JSON response from the API https://yv1x0ke9cl.execute-api.us-east-1.amazonaws.com/prod/events
 If the user has more than one preferences, it will fetch the events from the above API endpoint and return the array of the JSON response.
 Array[0] contains the first preference data, array[1] contains second preference data and so on.`** <br/>
-&nbsp;**`onError: Json response from the API` **
+&nbsp;**`onError: Json response from the API`**
 &nbsp;&nbsp;`If token is missing :`
 ```json
 {
